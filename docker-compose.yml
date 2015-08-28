@@ -3,4 +3,6 @@ dev:
   ports:
   - "222:22"
   - "9001:9001"    
+  - "53:53/tcp"
+  - "53:53/udp"
   hostname: bind9
